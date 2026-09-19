@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Oscar Abril | Public Sector & TMT | IBIOL</title>
+  <meta name="description" content="Perfil profesional de Oscar Abril, Head of Public Sector & TMT en IBIOL." />
+
+  <style>
+    :root {
+      --bg: #07182d;
+      --bg2: #0b2442;
+      --text: #ffffff;
+      --muted: #b8c7d9;
+      --line: rgba(255,255,255,.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top, #123a66 0%, var(--bg) 45%, #04111f 100%);
+    }
+
+    .page {
+      min-height: 100vh;
+      padding: 34px 18px 50px;
+    }
+
+    .topbar {
+      width: min(1220px, 100%);
+      margin: 0 auto 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .identity h1 {
+      margin: 0;
+      font-size: clamp(26px, 4vw, 44px);
+      letter-spacing: -0.03em;
+    }
+
+    .identity p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 11px 16px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      background: rgba(255,255,255,.06);
+      backdrop-filter: blur(8px);
+    }
+
+    .button:hover {
+      background: rgba(255,255,255,.12);
+    }
+
+    .infographic-wrap {
+      width: min(1220px, 100%);
+      margin: 0 auto;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: rgba(255,255,255,.05);
+      box-shadow: 0 24px 80px rgba(0,0,0,.32);
+      backdrop-filter: blur(10px);
+    }
+
+    .infographic {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+    }
+
+    .footer {
+      width: min(1220px, 100%);
+      margin: 18px auto 0;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    @media (max-width: 700px) {
+      .page {
+        padding: 22px 10px 36px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .actions {
+        justify-content: flex-start;
+      }
+
+      .infographic-wrap {
+        padding: 5px;
+        border-radius: 16px;
+      }
+
+      .infographic {
+        border-radius: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div class="identity">
+        <h1>Oscar Abril</h1>
+        <p>Head of Public Sector &amp; TMT · IBIOL · NTT DATA</p>
+      </div>
+
+      <div class="actions">
+        <a class="button" href="oscar-abril-infografia.png" target="_blank" rel="noopener">
+          Ver a tamaño completo
+        </a>
+      </div>
+    </header>
+
+    <section class="infographic-wrap">
+      <img
+        class="infographic"
+        src="oscar-abril-infografia.png"
+        alt="Infografía profesional de Oscar Abril"
+      />
+    </section>
+
+    <footer class="footer">
+      Public Sector · TMT · IBIOL
+    </footer>
+  </main>
+</body>
+</html>
